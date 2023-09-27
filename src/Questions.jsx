@@ -3,7 +3,7 @@ import SingleQuestion from './SingleQuestion';
 const Questions = ({ questions }) => {
     return (
         <section className='container'>
-            <h1>Questions</h1>
+            <h3>Questions</h3>
             {questions.map((question) => (
                 <SingleQuestion key={question.id} {...question} />
             ))}
