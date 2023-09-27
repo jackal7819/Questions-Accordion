@@ -314,9 +314,9 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+	align-self: flex-start;
     border-radius: 50%;
     color: var(--white);
     cursor: pointer;
-    align-self: flex-start;
     min-width: 2rem;
 }
