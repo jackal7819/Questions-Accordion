@@ -1,4 +1,4 @@
-export const questions = [
+export const data = [
     {
         id: 1,
         title: 'What was the first home gaming console released by Nintendo?',

@@ -253,15 +253,14 @@ ul {
     margin: 0 auto;
     margin-top: 1rem;
 }
+
 /* ============= PROJECT CSS =============== */
-/* optional */
 
 body {
-    background: var(--primary-100);
+    background: var(--primary-600);
 }
 main {
     min-height: 100vh;
-    /* using flex because of better browser support */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -318,7 +317,6 @@ main {
     border-radius: 50%;
     color: var(--white);
     cursor: pointer;
-    /* optional - last item */
     align-self: flex-start;
     min-width: 2rem;
 }
